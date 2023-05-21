@@ -1,0 +1,26 @@
+.recomandari-div-beneficii {
+  /* background-color: red; */
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-right: 1px solid black;
+}
+
+.recomandari-div-info {
+  /* background-color: black; */
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 900px) {
+  .recomandari-div-beneficii {
+    border-right: 1px solid white;
+  }
+}

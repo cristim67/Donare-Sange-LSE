@@ -1,0 +1,93 @@
+* {
+  /* background: ; */
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+section {
+}
+
+section:nth-child(1) {
+  background-image: url("/img/Donare\ sange_cover.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+
+@media screen and (max-width: 700px){
+    .section:nth-child(1){
+        background-image: url("/img/Donare\ sange_cover-tel.jpg");
+    }
+}
+
+section:nth-child(2) {
+  /* background-color: yellow; */
+
+  height: 100vh;
+}
+
+section:nth-child(3) {
+  /* background-color: #0ff; */
+  height: 100vh;
+  display: flex;
+}
+
+section:nth-child(4) {
+  /* background-color: red; */
+  height: 100vh;
+}
+
+section:nth-child(5) {
+  /* background-color: Red; */
+  height: 100vh;
+}
+
+footer {
+  height: 500px;
+  /* background-color: #00f; */
+}
+
+span {
+  display: inline-block;
+  font-size: 2em;
+  margin: 32px;
+  opacity: 0;
+  transition: all 0.5s;
+  transition-delay: 0.2s;
+}
+
+.snap-scroll-visible span {
+  margin-top: 16px;
+  opacity: 1;
+}
+
+.img-bg {
+  height: 100vh;
+  width: 100%;
+  background-color: red;
+}
+
+.beneficii-section {
+  height: 100vh;
+  width: 100%;
+  background-color: yellow;
+}
+
+.recomandari-section {
+  height: 100vh;
+  width: 100%;
+  /* background-color: blue; */
+}
+
+.Informatii-si-restrictii {
+  height: 100vh;
+  width: 100%;
+  /* background-color: red; */
+}
+
+@media screen and (max-width: 700px) {
+  section:nth-child(4) {
+    overflow: scroll;
+  }
+}
